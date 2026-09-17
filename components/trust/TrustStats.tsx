@@ -8,9 +8,9 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: "150+", label: "Expert Dentists", dots: "single" },
-  { value: "20+", label: "Dental Clinics across UK", dots: "cluster-small" },
-  { value: "03+", label: "Countries presence", dots: "cluster-large" },
+  { value: "150K+", label: "Patients Served", dots: "single" },
+  { value: "40+", label: "Years of Experience", dots: "cluster-small" },
+  { value: "03+", label: "Countries Presence", dots: "cluster-large" },
 ];
 
 /**
