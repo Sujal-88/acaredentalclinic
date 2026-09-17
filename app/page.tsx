@@ -6,6 +6,9 @@ import ServicesMarquee from "@/components/marquee/ServiceMarquee";
 import AboutSection from "@/components/about/AboutSection";
 import TeamSection from "@/components/team/TeamSection";
 import BookingSection from "@/components/booking/BookingSection";
+import ReviewsSection from "@/components/review/ReviewsSection";
+import GallerySection from "@/components/gallery/GallerySection";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +19,10 @@ export default function Home() {
       <TreatmentsSection />
       <TrustStats />
       <TeamSection />
+      <ReviewsSection />
+      <GallerySection />
       <BookingSection />
+      <Footer />
     </main>
   );
 }
